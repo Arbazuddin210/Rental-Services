@@ -25,3 +25,22 @@ body{
     background-color:rgb(194, 65, 12);
     border-radius: 2rem;
 }
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.searchBar form{
+    display: flex;
+    border: 1px solid #fff;
+    height: 3rem;
+    width: 35rem;
+    border-radius: 2rem;
+
+}
+.searchBar form input{
+    border-radius: 2rem 0rem 0rem 2rem;
+    width: 90%;
+    padding: 1rem;
+}
