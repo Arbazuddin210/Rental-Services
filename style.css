@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(31, 41, 55);
+}
+.navMenu{
+    padding: 1rem 2rem;
+    background-color: rgb(22, 26, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMenu a{
+    color:white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.navMenu a:last-child{
+    border: 1px solid #fff;
+    padding: 0.4rem 1rem;
+    background-color:rgb(194, 65, 12);
+    border-radius: 2rem;
+}
