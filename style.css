@@ -29,7 +29,7 @@ body{
 .searchBar{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin: 1rem 0rem;
 }
 .searchBar form{
     display: flex;
@@ -43,4 +43,38 @@ body{
     border-radius: 2rem 0rem 0rem 2rem;
     width: 90%;
     padding: 1rem;
+    font-size: 1rem;
 }
+
+main{
+    /* border: 1px solid #cf7373; */
+    margin: 0rem 2rem;
+    height: 800px;
+}
+
+.bikesSection{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    height: 500px;
+}
+.bikesSection h1{
+   color: red;
+   padding:1rem 0rem 0rem 1rem;
+}
+.bikesSection .cartArea{
+    display: flex;
+    gap:1rem;
+    flex-wrap: nowrap;
+    border: 1px solid #7a6262;
+    height:400px;
+    overflow-x: scroll;
+}
+.bikesSection .cartArea .cart{
+    border: 1px solid #7a6262;
+    height:100%;
+    width: 25%;
+    background-color: #fff;
+    flex-shrink: 0;
+}
+
